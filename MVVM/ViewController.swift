@@ -9,9 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var petName: UILabel!
+    @IBOutlet weak var petLegs: UILabel!
+    @IBOutlet weak var petDesc: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let viewModel = DogViewModel(name: "Dui")
+        
+        petName.text = viewModel.dogName
+        petLegs.text = viewModel.dogLegs
+        petDesc.text = viewModel.dogNameAndLegs
         // Do any additional setup after loading the view, typically from a nib.
     }
 

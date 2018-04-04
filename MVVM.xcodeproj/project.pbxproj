@@ -12,6 +12,8 @@
 		B8512A7B207523110072BC0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8512A79207523110072BC0C /* Main.storyboard */; };
 		B8512A7D207523140072BC0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8512A7C207523140072BC0C /* Assets.xcassets */; };
 		B8512A80207523140072BC0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8512A7E207523140072BC0C /* LaunchScreen.storyboard */; };
+		B8512A88207525070072BC0C /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8512A87207525070072BC0C /* Dog.swift */; };
+		B8512A8A2075256D0072BC0C /* DogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8512A892075256D0072BC0C /* DogViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B8512A7C207523140072BC0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8512A7F207523140072BC0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8512A81207523140072BC0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8512A87207525070072BC0C /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		B8512A892075256D0072BC0C /* DogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				B8512A75207523110072BC0C /* AppDelegate.swift */,
 				B8512A77207523110072BC0C /* ViewController.swift */,
 				B8512A79207523110072BC0C /* Main.storyboard */,
+				B8512A87207525070072BC0C /* Dog.swift */,
+				B8512A892075256D0072BC0C /* DogViewModel.swift */,
 				B8512A7C207523140072BC0C /* Assets.xcassets */,
 				B8512A7E207523140072BC0C /* LaunchScreen.storyboard */,
 				B8512A81207523140072BC0C /* Info.plist */,
@@ -137,6 +143,8 @@
 			files = (
 				B8512A78207523110072BC0C /* ViewController.swift in Sources */,
 				B8512A76207523110072BC0C /* AppDelegate.swift in Sources */,
+				B8512A88207525070072BC0C /* Dog.swift in Sources */,
+				B8512A8A2075256D0072BC0C /* DogViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
